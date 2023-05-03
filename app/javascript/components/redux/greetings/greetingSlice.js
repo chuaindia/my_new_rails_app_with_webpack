@@ -1,5 +1,5 @@
 import { createAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import receiveGreeting from '../grettings_api/api';
+import receiveGreeting from '../greetings_api/api';
 
 const GET_RANDOM_GREETING = createAction('messages/get_random_greeting');
 
